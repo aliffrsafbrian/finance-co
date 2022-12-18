@@ -1,0 +1,239 @@
+:root {
+    --margin-bottom-main: 18px;
+
+    --primary-color: #5236ff;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(1, 9, 22);
+    color: #fff;
+    font-family: 'poppins', 'sans serif';
+}
+
+
+
+
+
+/* ====         HEDERrrrr rrrr  ====== ==========*/
+
+header {
+    margin: 1.8rem 6rem;
+}
+
+header .header--content {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header--content ul {
+    display: flex;
+}
+
+header .header--content ul li {
+    list-style: none;
+    margin-right: 16px;
+}
+
+header .header--content ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+header .header--content .header--login li:nth-child(2) {
+    background-color: var(--primary-color);
+    width: 6rem;
+    height: 2rem;
+    text-align: center;
+    justify-items: center;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+/*  -==----====    Fetii yyrrr   cokkok -----=============*/
+
+.feature--container{
+    margin: 0 6rem;
+    margin-top: 6rem;
+}
+
+.feature--container .feature--content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.feature--content .feature--main p:nth-child(1){
+    color: #00b4db;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.feature--content .feature--main h1{
+    margin-bottom: 12px;
+    width: 240px;
+    font-size: 32px;
+}
+
+.feature--content .feature--main .subtitle{
+    color: rgb(209, 209, 230);
+    width: 240px;
+    font-size: 12px;
+    margin-bottom: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.feature--content .feature--main .main--button{
+    display: flex;
+}
+
+.feature--content .feature--main .main--button button{
+    margin-top: 16px;
+    margin-right: 12px;
+    background-color: rgb(1, 9, 22);
+    color: #fff;
+    font-size: 14px;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 25px;
+    border: none;
+}
+
+.feature--content .feature--main .main--button button:nth-child(1){
+    background-color: var(--primary-color);
+}
+
+
+
+
+.feature--content .feature--img{
+    width: 310px;
+    height: 495px;
+    background-color: var(--primary-color);
+    margin: 0 auto;
+    border-radius: 200px 200px 0 0;
+    z-index: 0;
+}
+
+
+
+
+
+.feature--content .feature--img .obj--tab{
+    background-color: rgba(102, 115, 126, 0.171);
+    width: 190px;
+    height: 70px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 1px 0 20px rgb(1, 9, 22);
+    left: 16rem;
+    top: 4rem;
+    backdrop-filter: blur(10px);
+}
+
+.feature--img .obj--tab:nth-child(2){
+    left: -9rem;
+    top: 17rem;
+}
+
+.feature--img .obj--tab .obj--content{
+    padding: 16px;
+    display: flex;
+}
+
+.feature--img .obj--tab .obj--content p{
+    font-size: 11px;
+}
+
+.feature--img .obj--tab .obj--content .obj--num{
+    margin-left: 14px;
+}
+
+
+
+
+
+
+
+
+.feature--content .feature--sec{
+    margin-top: 6rem;
+    margin-left: 10rem;
+}
+
+.feature--content .feature--sec h1{
+    margin-bottom: 12px;
+}
+
+.feature--content .feature--sec p{
+    color: rgb(209, 209, 230);
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+
+
+
+
+
+.support--container{
+    width: 960px;
+    height: 160px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+div.support--container::before{
+    content: '';
+    width: 960px;
+    height: 160px;
+    background-color: var(--primary-color);
+    position: absolute;
+    border-radius: 20px;
+    clip-path: circle(25% at 50% -60%);
+}
+
+.support--container .support--content{
+    padding: 1.5rem;
+    width: 960px;
+    height: 160px;
+    text-align: center;
+    background-color: rgba(43, 50, 56, 0.2);
+    backdrop-filter: blur(45px);
+    position: absolute;
+    border-radius: 20px;
+}
+
+.support--container .support--content p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.support--container .support--content .support--img{
+    margin-top: 20px;
+    height: 55px;
+}
+
+
+
+
+
+
+
+.pricing--section{
+    margin: 6rem;
+}
